@@ -1,3 +1,6 @@
+BEGIN {
+	OFS="\t"
+}
 {
 	if (NR==1) {
 		print
